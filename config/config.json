@@ -1,0 +1,7 @@
+{
+    "client_id": "io.digybot.appuat",
+    "team_id": "WU89J4J4S6",
+    "key_id": "XLNUPD8D9Z",
+    "redirect_uri": "http://localhost:3000/",
+    "scope": "Digybot"
+}
