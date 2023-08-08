@@ -51,7 +51,7 @@ app.get('/refresh', async (req, res) => {
     }
 });
 
-app.listen(3000, () => {
+app.listen(3002, () => {
     console.log("Listening on https://mendezj.site/");
 })
 
