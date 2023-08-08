@@ -40,6 +40,10 @@ app.post('/auth', bodyParser(), async (req, res) => {
     }
 });
 
+app.get('/try', async (req, res) => {
+    console.log("Si hizo la conexión");
+})
+
 app.get('/refresh', async (req, res) => {
     try {
         console.log( Date().toString() + "GET /refresh");
@@ -52,7 +56,7 @@ app.get('/refresh', async (req, res) => {
 });
 
 app.listen(3002, () => {
-    console.log("Listening on https://mendezj.site:3002/");
+    console.log("Listening on https://mendezj.site/");
 })
 
 
