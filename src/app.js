@@ -52,7 +52,7 @@ app.get('/refresh', async (req, res) => {
 });
 
 app.listen(3002, () => {
-    console.log("Listening on https://mendezj.site/");
+    console.log("Listening on https://mendezj.site:3002/");
 })
 
 
